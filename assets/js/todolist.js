@@ -90,5 +90,3 @@ document.getElementById("listaCreada").innerHTML=html;
     	list = "";
   }
 }
-
-
