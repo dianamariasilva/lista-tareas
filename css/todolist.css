@@ -95,3 +95,14 @@ ul {
 .addBtn:hover {
   background-color: #bbb;
 }
+
+input:checked:after {
+	border: 3px solid lightblue;
+	color: white;
+	font-size: 30px;
+	border-radius: 50%;
+	content: "✘";
+	line-height: 43px;
+	background-color: lightblue;
+	animation: bounce 300ms ease-in-out forwards;
+}
