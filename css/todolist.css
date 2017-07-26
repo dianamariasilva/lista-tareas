@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  background: #fff;
+  background: #B9395F;
   max-width: 600px;
   width: 100%;
   display: table;
@@ -26,11 +26,11 @@ input {
 
 h1,h2 {
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
   line-height: 1;
 }
-h2 {
-  color: gray;
+h1 {
+  color: black;
 }
 
 ul {
