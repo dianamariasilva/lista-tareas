@@ -6,15 +6,16 @@
     <link rel="stylesheet" href="css/todolist.css">
   </head>
   <body>
-      <div class="container">
-      <h1>To do list</h1>  
-        <p>
+      <div id = myDIV class="header">
+      <h2>To do list</h2>  
           <input type="text" id="list" placeholder="Que hay por hacer?"/>
-          <button onclick="agregar()">Add    +</button>
-        </p>
-      <div style="margin-left: 1cm" id="respuesta"></div>
-
-  </div>  
-    <script src= 'js/todolist.js'></script>
-  </body>
+          <span onclick="add()" class="addBtn">Add     +</span>
+      </div>
+      <ul id="listaCreada">
+      </ul>
+      <ul id="respuesta">
+      </ul>
+  </div> 
+ <script src= 'js/todolist.js'></script> 
+ </body>
 </html>
