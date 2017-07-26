@@ -64,7 +64,7 @@
  for (var i =0; i<array.length;i++){
   var dato_1 = array[i];
   var s = "<div>" +  "<label>"+"<input type='checkbox'>"+
-    "<td>" + "<strong>"+ dato_1.userId + "-" +  dato_1.id + dato_1.title + dato_1.completed + "</strong>"+ "</td>"+ "</input>"+"</label>"+
+    "<td>" + "<strong>"+ dato_1.title + dato_1.completed + "</strong>"+ "</td>"+ "</input>"+"</label>"+
   "</div>";
   html += s;
  }
