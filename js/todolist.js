@@ -90,8 +90,5 @@ document.getElementById("listaCreada").innerHTML=html;
     	list = "";
   }
 }
-  function check(){
-
-  }
 
 
